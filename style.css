@@ -1,0 +1,118 @@
+/* Основные стили */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e0f7fa; /* Светлый мятный фон */
+    color: #004d40; /* Темный цвет для текста */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #b2dfdb; /* Мятный цвет */
+    border-bottom: 5px solid #00796b; /* Темный оттенок */
+  }
+  
+  #photo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #004d40;
+  }
+  
+  h2 {
+    color: #00796b;
+  }
+  
+  h3 {
+    color: #004d40;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 5px 0;
+  }
+  
+  nav ul li a {
+    color: #004d40;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  pre code {
+    display: block;
+    background-color: #004d40;
+    color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  pre code .hljs-keyword {
+    color: #ffab40;
+  }
+  
+  pre code .hljs-built_in, pre code .hljs-number {
+    color: #ffd740;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: white;
+    border-top: 5px solid #004d40;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  .rs-logo {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+  }   
